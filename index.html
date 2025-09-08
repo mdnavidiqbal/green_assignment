@@ -125,5 +125,73 @@
         </ul>
       </div>
     </section>
+        <!-- Our Impact -->
+    <section class="bg-green-100 py-12 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6">Our Impact</h2>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 md:px-6"
+      >
+        <div class="bg-white shadow rounded-lg p-6">
+          <p class="text-2xl md:text-3xl font-bold">500K+</p>
+          <p>Trees Planted</p>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6">
+          <p class="text-2xl md:text-3xl font-bold">120+</p>
+          <p>Campaigns</p>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6">
+          <p class="text-2xl md:text-3xl font-bold">30+</p>
+          <p>Countries Reached</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <section class="bg-green-700 py-12 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-8 text-white">
+        Plant a Tree Today
+      </h2>
+      <form
+        class="max-w-lg mx-auto bg-green-600 p-6 md:p-8 rounded-2xl shadow-xl space-y-4"
+      >
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="w-full p-3 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          class="w-full p-3 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        />
+        <select
+          class="w-full p-3 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        >
+          <option value="">Number of Trees</option>
+          <option value="1">1 Tree - 5$</option>
+          <option value="5">5 Trees - 25$</option>
+          <option value="10">10 Trees - 50$</option>
+        </select>
+        <button
+          type="submit"
+          class="w-full bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-xl hover:bg-yellow-300 transition"
+        >
+          Donate Now
+        </button>
+      </form>
+    </section>
+
+    <!-- ✅ Modal -->
+    <div
+      id="plantModal"
+      class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+    >
+      <div
+        id="modalContent"
+        class="bg-white p-6 rounded-2xl w-11/12 md:w-96 shadow-lg"
+      >
+        <!-- JS দিয়ে এখানে details আসবে -->
+      </div>
+    </div>
 </body>
 </html>
