@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Website</title>
+    <!-- Daisy UI Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CSS Link -->
+     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+      <!-- Navbar -->
+    <nav
+      class="flex justify-between items-center bg-green-700 text-white px-4 py-3 md:px-6 md:py-4"
+    >
+      <div class="text-xl md:text-2xl font-bold">🌱 Green Earth</div>
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex gap-6 text-lg">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Plant a Tree</a></li>
+      </ul>
+
+      <!-- CTA Button -->
+      <button
+        class="hidden md:block bg-yellow-400 text-green-600 px-4 py-2 rounded-2xl"
+      >
+        Plant a Tree
+      </button>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="menuBtn"
+        class="md:hidden bg-yellow-400 text-green-700 px-3 py-1 rounded-lg"
+      >
+        ☰
+      </button>
+    </nav>
 </body>
 </html>
