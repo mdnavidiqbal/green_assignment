@@ -1,4 +1,14 @@
 
+# Hi, I'm Navid! 👋
+
+
+## 🚀 About Me
+I'm a frontend developer...
+
+
+## 🛠 Skills
+HTML, CSS(Tailwind,Daisy UI),Javascript...
+
 ## FAQ
 
 #### Question 1 : Difference between var, let, and const
