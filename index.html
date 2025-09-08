@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Website</title>
-    <!-- Daisy UI Link -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <!-- Tailwind CSS Link -->
-     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-      <!-- Navbar -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Earth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-green-50">
+    <!-- Navbar -->
     <nav
       class="flex justify-between items-center bg-green-700 text-white px-4 py-3 md:px-6 md:py-4"
     >
@@ -38,7 +36,8 @@
         ☰
       </button>
     </nav>
-        <!-- Mobile Dropdown -->
+
+    <!-- Mobile Dropdown -->
     <div
       id="mobileMenu"
       class="hidden flex-col bg-green-600 text-white p-4 space-y-2 md:hidden"
@@ -83,7 +82,8 @@
         />
       </div>
     </section>
-        <!-- Categories + Plant Cards -->
+
+    <!-- Categories + Plant Cards -->
     <section class="flex flex-col lg:flex-row px-4 md:px-6 py-10 gap-6">
       <!-- Categories -->
       <aside class="w-full lg:w-1/4 bg-white p-4 rounded-lg shadow">
@@ -107,7 +107,8 @@
         <p class="mt-4 font-bold">Total: $<span id="total">0</span></p>
       </aside>
     </section>
-        <!-- About -->
+
+    <!-- About -->
     <section
       class="px-4 md:px-6 py-12 flex flex-col md:flex-row items-center gap-6 max-w-6xl mx-auto"
     >
@@ -125,7 +126,8 @@
         </ul>
       </div>
     </section>
-        <!-- Our Impact -->
+
+    <!-- Our Impact -->
     <section class="bg-green-100 py-12 text-center">
       <h2 class="text-2xl md:text-3xl font-bold mb-6">Our Impact</h2>
       <div
@@ -190,10 +192,11 @@
         id="modalContent"
         class="bg-white p-6 rounded-2xl w-11/12 md:w-96 shadow-lg"
       >
-        
       </div>
     </div>
-        <footer
+
+    <!-- Footer -->
+    <footer
       class="bg-green-900 text-center text-white py-4 text-sm md:text-base"
     >
       <p>&copy; 2025 Green Earth. All Rights Reserved.</p>
@@ -207,6 +210,7 @@
         mobileMenu.classList.toggle("hidden");
       });
     </script>
-<script src="./script.js"></script>
-</body>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
