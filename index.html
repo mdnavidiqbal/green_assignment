@@ -83,5 +83,29 @@
         />
       </div>
     </section>
+        <!-- Categories + Plant Cards -->
+    <section class="flex flex-col lg:flex-row px-4 md:px-6 py-10 gap-6">
+      <!-- Categories -->
+      <aside class="w-full lg:w-1/4 bg-white p-4 rounded-lg shadow">
+        <h2 class="text-xl font-bold mb-4">Categories</h2>
+        <div id="categories" class="flex flex-col gap-2"></div>
+      </aside>
+
+      <!-- Plant Cards -->
+      <main class="w-full lg:w-2/4">
+        <h2 class="text-2xl font-bold mb-6 text-center">Choose Your Trees</h2>
+        <div
+          id="plants"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+        ></div>
+      </main>
+
+      <!-- Cart -->
+      <aside class="w-full lg:w-1/4 bg-white p-4 rounded-lg shadow">
+        <h2 class="text-xl font-bold mb-4">Your Cart</h2>
+        <ul id="cart" class="space-y-2"></ul>
+        <p class="mt-4 font-bold">Total: $<span id="total">0</span></p>
+      </aside>
+    </section>
 </body>
 </html>
