@@ -181,7 +181,7 @@
       </form>
     </section>
 
-    <!-- ✅ Modal -->
+    <!-- Modal -->
     <div
       id="plantModal"
       class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
@@ -190,8 +190,22 @@
         id="modalContent"
         class="bg-white p-6 rounded-2xl w-11/12 md:w-96 shadow-lg"
       >
-        <!-- JS দিয়ে এখানে details আসবে -->
+        
       </div>
     </div>
+        <footer
+      class="bg-green-900 text-center text-white py-4 text-sm md:text-base"
+    >
+      <p>&copy; 2025 Green Earth. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      // Mobile Menu Toggle
+      const menuBtn = document.getElementById("menuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
 </body>
 </html>
